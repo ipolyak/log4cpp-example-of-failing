@@ -3,9 +3,9 @@
 
 static int staticVariable = Some::SomeMethod();
 
-void main()
+int main()
 {
   std::cout << "Bug is not reproduced." << std::endl;
 
-  return;
+  return 0;
 }
